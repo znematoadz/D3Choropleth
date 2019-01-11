@@ -1,0 +1,22 @@
+{
+  "name": "barchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znematoadz/D3Choropleth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://znematoadz.github.io/D3Choropleth",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}

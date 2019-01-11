@@ -1,0 +1,39 @@
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #acacaa; }
+
+#container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh; }
+  #container #title {
+    text-align: center; }
+  #container .chart {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px; }
+    #container .chart #chartSVG {
+      fill: #231f20;
+      padding: 50px;
+      margin: 50px;
+      overflow: visible; }
+      #container .chart #chartSVG .states {
+        stroke-linejoin: round; }
+
+.tooltip {
+  background-color: #f8f6ef;
+  position: absolute;
+  opacity: 0;
+  color: #191919;
+  font-size: 20px;
+  padding: 5px;
+  pointer-events: none;
+  border: 2px solid #8f8779;
+  border-radius: 3px; }
