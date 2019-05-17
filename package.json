@@ -16,7 +16,6 @@
   "license": "ISC",
   "homepage": "https://znematoadz.github.io/D3Choropleth",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0"
+    "gh-pages": "^2.0.1"
   }
 }
